@@ -27,6 +27,7 @@ Rails::Initializer.run do |config|
   config.gem 'RedCloth', :lib => 'redcloth', :version => '~> 4.0.1'
   config.gem 'uuidtools', :version => '~> 1.0.0'
   config.gem 'mysql'
+  config.gem 'honeypot-captcha'
 
   # Only load the plugins named here, in the order given. By default, all plugins 
   # in vendor/plugins are loaded in alphabetical order.
